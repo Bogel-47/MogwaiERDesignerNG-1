@@ -371,12 +371,17 @@ public final class ERDesignerComponent implements ResourceHelperProvider {
 
         DefaultAction theNewAction = new DefaultAction(
                 e -> commandNew(), this, ERDesignerBundle.NEWMODEL);
+                theNewAction.putValue(DefaultAction.HOTKEY_KEY, KeyStroke
+                .getKeyStroke(KeyEvent.VK_N, KeyEvent.CTRL_DOWN_MASK));
 
         DefaultAction theLruAction = new DefaultAction(this,
                 ERDesignerBundle.RECENTLYUSEDFILES);
 
         DefaultAction theLoadAction = new DefaultAction(
                 new OpenFromFileCommand(), this, ERDesignerBundle.LOADMODEL);
+                theLoadAction.putValue(DefaultAction.HOTKEY_KEY, KeyStroke
+                .getKeyStroke(KeyEvent.VK_L, KeyEvent.CTRL_DOWN_MASK));
+
 
         handAction = new DefaultAction(
                 e -> {

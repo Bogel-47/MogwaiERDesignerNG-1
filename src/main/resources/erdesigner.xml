@@ -2,7 +2,7 @@
 <Resource>
     <Bundle interface="de.erdesignerng.ERDesignerBundle">
         <Entry id="TITLE">
-            <Text>Mogwai ER-Designer NG</Text>
+            <Text>Mogwai ER-Designer NG (Shortcut CTRL+N)</Text>
         </Entry>
         <Entry id="FILE">
             <Text lang="de">Datei</Text>
@@ -13,8 +13,8 @@
             <Text lang="en">Recently used files</Text>
         </Entry>
         <Entry id="NEWMODEL">
-            <Text lang="de">Neues Modell</Text>
-            <Text lang="en">New model</Text>
+            <Text lang="de">Neues Modell (ctrl+n)</Text>
+            <Text lang="en">New model (ctrl+n)</Text>
             <Icon>/de/erdesignerng/icons/new.png</Icon>
         </Entry>
         <Entry id="SAVEMODEL">
@@ -39,7 +39,7 @@
         </Entry>
         <Entry id="LOADMODEL">
             <Text lang="de">Modell laden...</Text>
-            <Text lang="en">Load model...</Text>
+            <Text lang="en">Load model... (ctrl + l)</Text>
             <Icon>/de/erdesignerng/icons/folder.png</Icon>
         </Entry>
         <Entry id="EXITPROGRAM">
